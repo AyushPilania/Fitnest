@@ -1,0 +1,141 @@
+.navbar_brand{
+  font-family: 'Exile';
+  font-size: 50px;
+  margin-right: 5px;
+  text-decoration: none;
+  color: #8abc40;
+}
+
+.navbar-brand{
+  font-size: 2rem;        
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.navbar-nav{
+    margin-top: 10px;
+}
+
+.nav-link{
+  font-size: 1.5rem;
+  color: black;
+  margin-right: 15px;
+  text-align: right;
+  margin-bottom: 5px;
+}
+
+.nav-link:hover{
+  color: #8abc40;
+}
+
+.dropdown-toggle{
+  font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container-fluid.footer{
+
+  background-color: #e0ffc2;
+}
+
+.col-md-4.col-sm-4.col-lg-4.col-12.footer_logo{
+  height: 300px;
+}
+
+
+.block{
+  background-color: #e0ffc2;
+  margin-bottom: 50px;
+}
+
+h5{
+  margin-top: 40px;
+  margin-left: 30px;
+  font-size: 60px;
+}
+
+p4{
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+h6{
+  margin-top: 40px;
+  margin-left: 20px;
+  font-size: 40px;
+}
+
+.contact_menu{
+  margin-left: 0px;
+}
+
+.menu1_details{
+  text-decoration: none;
+  color: black;
+  margin: 2px;
+}
+
+.menu1_details:hover{
+  color: green;
+}
+
+.social{
+  margin-left: 30px;
+}
+
+.social_media{
+  display: flex;
+  align-items: self-end;
+  gap: 20px;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.social_media li{
+  display: inline-block;
+}
+
+.social_media a{
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+
+.fab.fa-facebook:hover{
+  color: royalblue;
+}
+
+.fab.fa-instagram:hover{
+  color: deeppink;
+}
+
+.fab.fa-linkedin:hover{
+  color: royalblue;
+}
+
+
+.features_menu{
+  margin-left: 0px;
+}
+
+.features_details{
+  color: black;
+  text-decoration: none;
+}
+
+.features_details:hover{
+  color: green;
+}

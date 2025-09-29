@@ -1,0 +1,304 @@
+/* ------------------- Navbar ------------------- */
+.navbar_brand {
+  font-family: 'Exile';
+  font-size: 4rem;
+  margin-right: 10px;
+  text-decoration: none;
+  color: #8abc40;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.navbar-nav {
+  margin-top: 10px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  color: black;
+  margin-right: 15px;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #00563B;
+}
+
+/* ------------------- Hero Section ------------------- */
+.user_greeting{
+  margin-top: -60px;
+  font-size: 3rem;
+}
+.welcome {
+  color: #7CFC00;
+  font-family: 'Agbalumo';
+  margin: 20px 0 20px 5px;
+  font-size: 4rem;
+}
+
+.fitness_journey {
+  font-size: 2.5rem;
+  margin: 30px 0 20px 5px;
+  font-family: 'ADLaM Display';
+  color: #333;
+}
+
+.subheading {
+  background-color: #dfffcf;
+  width: fit-content;
+  margin: 40px 0 20px 5px;
+  padding: 12px 8px;
+  font-size: 2.6rem;
+  font-weight: 500;
+}
+/* ------------------- About Section ------------------- */
+.container-fluid.info {
+  background-color: #98FB98;  /* light greenish background */
+  padding: 80px 20px;
+}
+
+.about h2.question {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 20px;
+}
+
+.about h2.question span {
+  color: #32CD32;   /* Fitnest green */
+}
+
+.about p {
+  font-size: 1.2rem;
+  line-height: 1.7;
+  color: #444;
+  margin-top: 10px;
+}
+
+.about img {
+  border-radius: 20px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  max-height: 200px;
+  object-fit: cover;
+}
+.info img {
+  width: 300px;   /* fixed width */
+  height: auto;   /* keep aspect ratio */
+}
+
+
+/* ------------------- Features Section ------------------- */
+.container-fluid.tools {
+  background: #fff;
+  padding: 80px 20px;
+}
+
+.box {
+  background-color: #98FB98;  /* soft background */
+  border-radius: 20px;
+  padding: 30px;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid #e5e5e5;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+
+.box h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.box {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.box img {
+  max-width: 100%;
+  height: 180px;   
+  object-fit: cover; 
+  border-radius: 8px;
+  margin: 0 auto 10px auto;
+}
+
+.box p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+
+/* ------------------- Headings ------------------- */
+h1 {
+  margin-left: 20px;
+  font-family: 'Acme';
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+h1 span {
+  color: #a4cc44;
+}
+
+h3 {
+  font-family: 'Aclonica';
+  font-size: 2rem;
+}
+
+h4 {
+  font-family: 'Lato';
+  text-align: center;
+  margin: 50px 0 30px;
+  font-size: 1.5rem;
+}
+
+h5 {
+  margin-top: 40px;
+  margin-left: 30px;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+h6 {
+  margin-top: 40px;
+  margin-left: 20px;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+/* ------------------- Custom Paragraph Tags ------------------- */
+p2, p4, p5, p6 {
+  font-family: 'Lato', sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+p2 {
+  font-size: 15px;
+}
+
+p4 {
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+p5 {
+  font-size: 1.3rem;
+}
+
+p6 {
+  font-size: 1.1rem;
+  margin-top: 5px;
+}
+
+/* ------------------- Footer ------------------- */
+
+.footer {
+  background-color: #76FF7A;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  opacity: 1;
+  box-shadow: none;
+  border: none;
+}
+.fit {
+  font-size: 2.5rem;     
+  font-weight: 700;      
+  letter-spacing: 2px;   
+  font-family: 'Poppins', sans-serif;  
+  color: #00563B;           
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.sub {
+  font-size: 1.5rem;
+  margin-left: 10px;
+  color: #00563B;
+}
+
+/* Links inside footer */
+.footer a {
+  color: #00563B;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: #f7fff2;
+}
+
+.container-fluid.footer {
+  background-color: #76FF7A ;  /* keep same green */
+  padding: 80px 10px;
+  color: #00563B;
+}
+
+.menu1_details, .features_details {
+  text-decoration: none;  
+  color: #00563B;          
+  font-size: 1rem;     /* fixed to normal size */
+  transition: color 0.3s ease;
+}
+
+.menu1_details:hover, .features_details:hover {
+  color: #03C03C;       
+}
+
+/* Services links */
+.services a {
+  color: #00563B;
+  text-decoration: none;
+  display: block;
+  margin: 5px 0;
+}
+
+.services a:hover {
+  color: #03C03C;        
+  text-decoration: none;
+}
+
+/* Contact section */
+.contact p {
+  color: #00563B;
+  margin: 5px 0;
+}
+
+.contact p:hover {
+  color: #03C03C;        
+}
+
+/* ===== Social Icons ===== */
+.contact a {
+  font-size: 1.8rem;   /* medium–large size */
+  margin: 0 10px;      
+  color:#00563B ;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.contact a:hover {
+  transform: scale(1.15); /* zoom effect */
+}
+
+/* Social brand hover colors */
+.fab.fa-facebook:hover { color: #1877f2; }  
+.fab.fa-instagram:hover { color: #e4405f; } 
+.fab.fa-linkedin:hover { color: #0a66c2; }  
+
+
